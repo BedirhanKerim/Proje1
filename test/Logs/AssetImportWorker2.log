@@ -1,0 +1,732 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'tr' Physical Memory: 16104 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Narin/Desktop/UnityProjects/test
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50000
+Successfully changed project path to: C:/Users/Narin/Desktop/UnityProjects/test
+C:/Users/Narin/Desktop/UnityProjects/test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9356] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 1035483821 [EditorId] 1035483821 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PUR0K9C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9356] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 1035483821 [EditorId] 1035483821 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PUR0K9C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 8.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Narin/Desktop/UnityProjects/test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   31.0.15.5176
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.011600 seconds.
+- Loaded All Assemblies, in  0.394 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 230 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 992ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (601ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (538ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (354ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.650 seconds
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.625 seconds
+Domain Reload Profiling: 1273ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (401ms)
+		LoadAssemblies (303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (150ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (625ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (459ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3670.
+Memory consumption went from 129.2 MB to 129.1 MB.
+Total: 3.053700 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.108100 ms MarkObjects: 2.532900 ms  DeleteObjects: 0.103000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 292.925445 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/SceneTest.cs
+  artifactKey: Guid(281a85803caf74a459439020a0840fa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/SceneTest.cs using Guid(281a85803caf74a459439020a0840fa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd0fa78cc5560872960aa7131a9d95e0e') in 0.104334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/EnableIfAttribute.cs
+  artifactKey: Guid(a616ae826c8ebae45a89d6a8cb68a843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/EnableIfAttribute.cs using Guid(a616ae826c8ebae45a89d6a8cb68a843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9e9a12790724755e72aee50d2917ec0') in 0.011433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/BoxGroupTest.cs
+  artifactKey: Guid(3920f5ea384951b4990e4d9e8032d12e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/BoxGroupTest.cs using Guid(3920f5ea384951b4990e4d9e8032d12e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc62e4bd78169f206ea483f3562dc09a') in 0.014365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/CurveRangeTest.cs
+  artifactKey: Guid(6587b100d001e7e46b9aaae7f1180b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/CurveRangeTest.cs using Guid(6587b100d001e7e46b9aaae7f1180b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e36cfc732aa7c8305a5dcc28690a1caa') in 0.015300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/ShowIfTest.cs
+  artifactKey: Guid(4fdbfcfbf5b056a4bac491fe21569572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/ShowIfTest.cs using Guid(4fdbfcfbf5b056a4bac491fe21569572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f7ef9e367fc06e0f0c2556a39131b9c') in 0.015872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/Expandable.cs
+  artifactKey: Guid(60926d6ca7f9ced469e9248ff1192da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/Expandable.cs using Guid(60926d6ca7f9ced469e9248ff1192da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02c179c22d23d90ab29db26b34da391e') in 0.014533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ShowNativePropertyAttribute.cs
+  artifactKey: Guid(a8e9b7b71c94a1f459336a24cfe04b1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ShowNativePropertyAttribute.cs using Guid(a8e9b7b71c94a1f459336a24cfe04b1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f85923091f0408456d2ce10e9d1dd86d') in 0.013383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/OnValueChangedAttribute.cs
+  artifactKey: Guid(e16a27c5576022b4bbe997c7db9051f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/OnValueChangedAttribute.cs using Guid(e16a27c5576022b4bbe997c7db9051f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b5cd34f26025396fb5bfc9cc4bc7462') in 0.013097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/ResizableTextAreaTest.cs
+  artifactKey: Guid(fb4f4bb2e3e063340a24f4bb24528bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/ResizableTextAreaTest.cs using Guid(fb4f4bb2e3e063340a24f4bb24528bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75042e6c03b54e154bc1496d282c7625') in 0.015123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/ShowNativePropertyTest.cs
+  artifactKey: Guid(b5a73795d25dd334e90a5a347c6079d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/ShowNativePropertyTest.cs using Guid(b5a73795d25dd334e90a5a347c6079d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd320985b2f80998dd15a08e9e053a197') in 0.014268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/ValidateInputTest.cs
+  artifactKey: Guid(94adafcfe59aa344c9b5596b2cc6ecd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/ValidateInputTest.cs using Guid(94adafcfe59aa344c9b5596b2cc6ecd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0244825d2a7131be66a913864cf7cb5d') in 0.014089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/NaughtyAttributes.Test.asmdef
+  artifactKey: Guid(df1dea26b8503004d92d621e88aa9421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/NaughtyAttributes.Test.asmdef using Guid(df1dea26b8503004d92d621e88aa9421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b1c92d9369e4a5c4e8d02ecd01ab73a') in 0.019214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/Cube.prefab
+  artifactKey: Guid(7ec354ef3daae7641b7a3fa5e1fe0c81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/Cube.prefab using Guid(7ec354ef3daae7641b7a3fa5e1fe0c81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4db9b72faaea12dea45a15969216011d') in 0.038180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/Utility/EConditionOperator.cs
+  artifactKey: Guid(3c227b6c19fc67b46ad294d95818f85a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/Utility/EConditionOperator.cs using Guid(3c227b6c19fc67b46ad294d95818f85a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '014ab5931736f47ab92c1e18c71113b4') in 0.017852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/MaxValuePropertyValidator.cs
+  artifactKey: Guid(627b8e9e7bda6fa408c6f47fb8285665) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/MaxValuePropertyValidator.cs using Guid(627b8e9e7bda6fa408c6f47fb8285665) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a7ebd2a245c84f2687647ebd7bc9f2b') in 0.021029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/MinMaxSliderPropertyDrawer.cs
+  artifactKey: Guid(27011af81554b5b4489b155f09275475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/MinMaxSliderPropertyDrawer.cs using Guid(27011af81554b5b4489b155f09275475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd62ff3482870948b4f8db0c1a9c3b80e') in 0.014218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Editor/Utility/ReflectionUtility.cs
+  artifactKey: Guid(1d86c581f02a55f458e36bf7e81e3084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Editor/Utility/ReflectionUtility.cs using Guid(1d86c581f02a55f458e36bf7e81e3084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '261a75918b981421b97170ea0099858a') in 0.016296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/TagTest.cs
+  artifactKey: Guid(8bcc0d5613b48fb43bd36c9d37e99900) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/TagTest.cs using Guid(8bcc0d5613b48fb43bd36c9d37e99900) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ebe44e3656fae4b2f5b59fe395c8b955') in 0.014927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/SortingLayerPropertyDrawer.cs
+  artifactKey: Guid(b0ed20ed34d732246a98cde96351fccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/SortingLayerPropertyDrawer.cs using Guid(b0ed20ed34d732246a98cde96351fccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be8e2d9ebb129f47240373d82a560b64') in 0.015220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/LayerAttribute.cs
+  artifactKey: Guid(668d19ebe071176448d1af816a9a0ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/LayerAttribute.cs using Guid(668d19ebe071176448d1af816a9a0ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e600d2f8d59f034ca311f30503930fec') in 0.013992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/HideIfAttribute.cs
+  artifactKey: Guid(9ab2d0fcfb13a214ea6ef7629c96a761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/HideIfAttribute.cs using Guid(9ab2d0fcfb13a214ea6ef7629c96a761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '541820cac4b5acbade4c3591a75c4b2a') in 0.015117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/AllowNestingPropertyDrawer.cs
+  artifactKey: Guid(a3175e7041b8f4348bd652485a78e7b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/AllowNestingPropertyDrawer.cs using Guid(a3175e7041b8f4348bd652485a78e7b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ecb914a0185e3b9983d83e285a2b8e2') in 0.014427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/_NaughtyComponent.cs
+  artifactKey: Guid(9c928ea15ae74a44089beb2e534c1a35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/_NaughtyComponent.cs using Guid(9c928ea15ae74a44089beb2e534c1a35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '585ee655d15d0f03674ad1e13b8077d1') in 0.013881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/ReorderableListTest.cs
+  artifactKey: Guid(c93fde7cd79390148ac576c3a159a77b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/ReorderableListTest.cs using Guid(c93fde7cd79390148ac576c3a159a77b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c1b3be3d1bc74a7258b5c8ab27a2006') in 0.013174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/EnableIfAttributeBase.cs
+  artifactKey: Guid(8ba6385cd022e164b89ead1937173ddc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/EnableIfAttributeBase.cs using Guid(8ba6385cd022e164b89ead1937173ddc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57b41f2aaca315c0950a240dd15535e9') in 0.013008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers_SpecialCase/ReorderableListPropertyDrawer.cs
+  artifactKey: Guid(bf36691a6d456564db2fcbfa8726b3f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers_SpecialCase/ReorderableListPropertyDrawer.cs using Guid(bf36691a6d456564db2fcbfa8726b3f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a03abc4d447ea5263a83c3e4ce55374') in 0.012785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/SortingLayerTest.cs
+  artifactKey: Guid(8ed73e666d447964d93c4840f05423dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/SortingLayerTest.cs using Guid(8ed73e666d447964d93c4840f05423dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd54c1380064ed025b62b4effb527e19d') in 0.013231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/RequiredAttribute.cs
+  artifactKey: Guid(b0cdf49d1687849458b1a8d4786553d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/RequiredAttribute.cs using Guid(b0cdf49d1687849458b1a8d4786553d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29aec8c663ac7f9008f1bc07d805fbf6') in 0.014501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/DropdownAttribute.cs
+  artifactKey: Guid(2cb864a1092cec04f8a4dbb556e8ed31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/DropdownAttribute.cs using Guid(2cb864a1092cec04f8a4dbb556e8ed31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c8048ced1bf4c53f58c9cf9d94204c7') in 0.015573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/CurveRangeAttribute.cs
+  artifactKey: Guid(bbdf3fb8882c7514c9a01108122cda7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/CurveRangeAttribute.cs using Guid(bbdf3fb8882c7514c9a01108122cda7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b06622eac2d0fc6d20ad28a4b5155fc6') in 0.013630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/TagPropertyDrawer.cs
+  artifactKey: Guid(3df4c068c970ab6498df7a60efbde311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/TagPropertyDrawer.cs using Guid(3df4c068c970ab6498df7a60efbde311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '07f62c5726ba063669a8814c19b40e10') in 0.016177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/MinMaxSliderAttribute.cs
+  artifactKey: Guid(4aaa73f574deaa54187cb54aae571b24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/MinMaxSliderAttribute.cs using Guid(4aaa73f574deaa54187cb54aae571b24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0edb8cc6d43555f1306526098733d851') in 0.016227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/icon-github.png
+  artifactKey: Guid(005888ede18a58e4db8d069cfa3007cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/icon-github.png using Guid(005888ede18a58e4db8d069cfa3007cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5bc2e3f4364a8cdbe76a8dd581fbc7f6') in 0.079697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/OnValueChangedTest.cs
+  artifactKey: Guid(ff1df679e5b32f64bb106752c63933fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/OnValueChangedTest.cs using Guid(ff1df679e5b32f64bb106752c63933fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'deb3aab81594fa0c8a89fd679f7279ae') in 0.010765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Editor/NaughtyAttributes.Editor.asmdef
+  artifactKey: Guid(f88fb04354076c646a4107a491394033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Editor/NaughtyAttributes.Editor.asmdef using Guid(f88fb04354076c646a4107a491394033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42be2c68388ac702b4c76e6bf0f31fe2') in 0.021556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/FoldoutTest.cs
+  artifactKey: Guid(3b437215d92efa74ea85ff726ca0dd09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/FoldoutTest.cs using Guid(3b437215d92efa74ea85ff726ca0dd09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54a34b0e856f38f03821990f981a57a8') in 0.011182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/DropdownTest.cs
+  artifactKey: Guid(3855e37cd6b01194e8166573c7c4b37d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/DropdownTest.cs using Guid(3855e37cd6b01194e8166573c7c4b37d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ebe111aeb7b6922bce7fe6c8e937c49') in 0.011368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/TestScriptableObjectB.asset
+  artifactKey: Guid(05371aa7630d3ef44ac0106af06cd73c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/TestScriptableObjectB.asset using Guid(05371aa7630d3ef44ac0106af06cd73c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4b210fd351cfd28fe89749e05f8e9d2') in 0.023939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/ShowIfAttributeBase.cs
+  artifactKey: Guid(0532b1c4d8a9ccf4b9f98f0bbe4a6747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/ShowIfAttributeBase.cs using Guid(0532b1c4d8a9ccf4b9f98f0bbe4a6747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '503a7e6f1045b5632019d0141f4fc75d') in 0.013152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ScenePropertyDrawer.cs
+  artifactKey: Guid(7f5ed440d4f429e42a5da7bc5df48fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ScenePropertyDrawer.cs using Guid(7f5ed440d4f429e42a5da7bc5df48fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a5c7d172921742f75279ebbc416fbde') in 0.014715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NaughtyAttributes/Scripts/Test/ProgressBarTest.cs
+  artifactKey: Guid(96ca4c27fc649764b9d1625f1740cb9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NaughtyAttributes/Scripts/Test/ProgressBarTest.cs using Guid(96ca4c27fc649764b9d1625f1740cb9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c80a37d1a9230c1548739cc0b76d9473') in 0.019131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.471746 seconds.
+  path: Assets/Manager.cs
+  artifactKey: Guid(003aa503fc4c1664fbd1ae6f7afc2c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager.cs using Guid(003aa503fc4c1664fbd1ae6f7afc2c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e1b138c7a44e55d3ffbc33a9f130bb') in 0.000503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.758 seconds
+Refreshing native plugins compatible for Editor in 3.94 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.475 seconds
+Domain Reload Profiling: 2230ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (430ms)
+		LoadAssemblies (496ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1475ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (650ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3674.
+Memory consumption went from 129.2 MB to 129.2 MB.
+Total: 3.776300 ms (FindLiveObjects: 0.582300 ms CreateObjectMapping: 0.106900 ms MarkObjects: 2.997800 ms  DeleteObjects: 0.086500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.822238 seconds.
+  path: Assets/Manager.cs
+  artifactKey: Guid(003aa503fc4c1664fbd1ae6f7afc2c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager.cs using Guid(003aa503fc4c1664fbd1ae6f7afc2c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c4a473750ebadcceb9bcc83f33aacf') in 0.002517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.667 seconds
+Refreshing native plugins compatible for Editor in 34.60 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.707 seconds
+Domain Reload Profiling: 7369ms
+	BeginReloadAssembly (1800ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (509ms)
+	RebuildNativeTypeToScriptingClass (167ms)
+	initialDomainReloadingComplete (295ms)
+	LoadAllAssembliesAndSetupDomain (1889ms)
+		LoadAssemblies (3350ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (39ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2708ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1023ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (801ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3677.
+Memory consumption went from 131.2 MB to 131.1 MB.
+Total: 6.770200 ms (FindLiveObjects: 1.066400 ms CreateObjectMapping: 0.472700 ms MarkObjects: 5.052400 ms  DeleteObjects: 0.175200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.486 seconds
+Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.065 seconds
+Domain Reload Profiling: 1548ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1066ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3680.
+Memory consumption went from 133.3 MB to 133.3 MB.
+Total: 3.918800 ms (FindLiveObjects: 0.483100 ms CreateObjectMapping: 0.126100 ms MarkObjects: 3.230500 ms  DeleteObjects: 0.076900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
